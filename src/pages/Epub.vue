@@ -33,7 +33,7 @@
     </div>
     <div
       class="col-12"
-      style="position: absolute;z-index: 9999 !important; height: 67vh; width: 96%"
+      style="position: absolute;z-index: 2000 !important; height: 67vh; width: 96%"
       v-touch-swipe.mouse.left.right="touchMoveToPage"
     >
     </div>
