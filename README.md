@@ -1,6 +1,6 @@
-# Quasar Epub/PDF reader (quasar-epub-reader)
+# Quasar Epub reader (quasar-epub-reader)
 
-An epub/pdf reader made with quasar framework and epubjs
+An epub reader made with quasar framework and epubjs
 
 ## Install the dependencies
 ```bash

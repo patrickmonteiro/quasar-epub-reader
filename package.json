@@ -1,8 +1,8 @@
 {
   "name": "quasar-epub-reader",
   "version": "0.0.1",
-  "description": "An epub/pdf reader made with quasar framework and epubjs",
-  "productName": "Quasar Epub/PDF reader",
+  "description": "An epub reader made with quasar framework and epubjs",
+  "productName": "Quasar Epub reader",
   "author": "Patrick Monteiro <eng.patrickmonteiro@gmail.com>",
   "private": true,
   "scripts": {
