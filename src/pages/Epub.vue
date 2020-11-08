@@ -31,6 +31,12 @@
         />
       </div>
     </div>
+    <div
+      class="col-12"
+      style="position: absolute;z-index: 9999 !important; height: 67vh; width: 96%"
+      v-touch-swipe.mouse.left.right="touchMoveToPage"
+    >
+    </div>
     <div id="epub-render"></div>
     <div class="row q-gutter-md q-px-sm" v-if="show">
       <q-btn
@@ -83,9 +89,11 @@ export default {
         this.show = true
       })
       this.rendition = this.book.renderTo('epub-render', {
-        height: '70vh'
+        height: '70vh',
+        width: '98%'
       })
       this.rendition.display()
+      document.getElementById('add')
     },
     uploadFile () {
       this.show = false
@@ -98,6 +106,13 @@ export default {
     },
     previousPage () {
       this.rendition.prev()
+    },
+    touchMoveToPage ({ ...info }) {
+      if (info.direction === 'left') {
+        this.nextPage()
+      } else {
+        this.previousPage()
+      }
     },
     goToExcerpt () {
       if (this.chapter.toLowerCase().indexOf('xhtml') > 0) {
