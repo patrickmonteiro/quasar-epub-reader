@@ -2,7 +2,20 @@
 
 An epub reader made with quasar framework and epubjs
 
-## Install the dependencies
+- Allows upload of epub files
+- Allows you to scroll the page by sliding your fingers across the screen
+- It has a chapter listing allowing you to jump directly to a chapter
+
+### Screens
+
+[![N|Solid](https://github.com/patrickmonteiro/quasar-epub-reader/blob/master/docs/prints.png?raw=true)](http:/quasar-epub.surge.sh)
+
+### Demo 
+
+http://quasar-epub.surge.sh
+
+----
+### Install the dependencies
 ```bash
 yarn
 ```
