@@ -14,6 +14,10 @@ An epub reader made with quasar framework and epubjs
 
 http://quasar-epub.surge.sh
 
+### Dependencies used
+
+- [Epubjs](https://github.com/futurepress/epub.js/)
+
 ----
 ### Install the dependencies
 ```bash
