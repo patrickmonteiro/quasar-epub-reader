@@ -14,11 +14,11 @@
     "axios": "^0.18.1",
     "core-js": "^3.6.5",
     "epubjs": "^0.3.88",
-    "quasar": "^1.0.0",
+    "quasar": "^1.14.5",
     "vue-i18n": "^8.0.0"
   },
   "devDependencies": {
-    "@quasar/app": "^2.0.0",
+    "@quasar/app": "^2.1.8",
     "babel-eslint": "^10.0.1",
     "eslint": "^6.8.0",
     "eslint-config-standard": "^14.1.0",
