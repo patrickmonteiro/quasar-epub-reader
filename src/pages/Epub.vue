@@ -115,7 +115,7 @@ export default {
       }
     },
     goToExcerpt () {
-      if (this.chapter.toLowerCase().indexOf('xhtml') > 0) {
+      if (Number.isInteger(this.chapter.toLowerCase().indexOf('xhtml'))) {
         this.rendition.display(this.chapter)
       } else {
         this.rendition.display('epubcfi(' + this.chapter + ')')
